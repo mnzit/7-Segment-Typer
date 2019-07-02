@@ -1,0 +1,78 @@
+.container {
+  position: relative;
+  margin: 15px;
+}
+
+#input {
+  width: 24px;
+}
+
+.digit {
+  margin-left: 25px;
+  margin-top: 12px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.light-color {
+  margin: 12px;
+  position: absolute;
+  background: rgb(220, 221, 224);
+  transition: all 0.3s;
+}
+
+.vertical {
+  height: 50px;
+  width: 10px;
+}
+
+.horizontal {
+  width: 50px;
+  height: 10px;
+}
+
+#light-0 {
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  left: 7px;
+}
+
+#light-1 {
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+  top: 10px;
+  left: 54px;
+}
+
+#light-2 {
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+  left: 54px;
+  top: 70px;
+}
+
+#light-3 {
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  left: 7px;
+  top: 120px;
+}
+
+#light-4 {
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  top: 70px;
+}
+
+#light-5 {
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  top: 10px;
+}
+
+#light-6 {
+  border-radius: 100%;
+  top: 60px;
+  left: 7px;
+}
