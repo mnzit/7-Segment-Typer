@@ -1,6 +1,4 @@
-# 7-Segment-Typer
-## Begin typing in your window in 7-Segment digits
-``` 
-open index.html in any browser
-```
+# 7-Segment-Digit
+## Begin making things like clocks and other from this component
+
 >Only used HTML,CSS,Javascript
